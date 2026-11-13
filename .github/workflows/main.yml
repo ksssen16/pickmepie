@@ -26,6 +26,8 @@ jobs:
           cache: true
       - name: чистим
         run: flutter clean
+      - name: create!!!!!!!!!
+        run: flutter create .
       - name: Install dependencies
         run: flutter pub get
 
